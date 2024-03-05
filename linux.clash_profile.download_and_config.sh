@@ -1,5 +1,5 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 wget \
     --output-document=$HOME/.config/clash/config.yaml \
-    $1
+    $*
